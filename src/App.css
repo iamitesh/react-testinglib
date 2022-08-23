@@ -32,3 +32,9 @@ a{
   height:600px;
   background-color: #52524f;
 }
+.section{
+  width:400px; 
+  padding:10px;
+  display: flex;
+  justify-content: space-between;
+}
