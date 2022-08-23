@@ -38,3 +38,11 @@ a{
   display: flex;
   justify-content: space-between;
 }
+.err{
+  color:red;
+  /* display:none; */
+}
+.emailWrapper,
+.passwordWrapper{
+    height: 100px;
+}
