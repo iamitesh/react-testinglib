@@ -1,17 +1,17 @@
 import "./App.css";
-
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
       <div className="navbar">
         <h2 className="logo">CB</h2>
         <div className="tabs">
-          <a className="login-tab" href="/">
+          <Link className="login-tab" to="/">
             Login
-          </a>
-          <a className="content-tab" href="/content">
+          </Link>
+          <Link className="content-tab" to="/content">
             Content
-          </a>
+          </Link>
         </div>
       </div>
     </>
