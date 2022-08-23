@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  color: white;
+}
+h1{
+
+  background-color: #2d2d2a;
+  padding:20px 20px;
+  display:flex;
+  justify-content: center;
+  margin:0px;
+  border-top: rgb(223, 244, 147) 5px solid;
+}
+.navbar{
+  padding-left: 20px 20px;
+    background-color: #40403d;
+  display:flex;
+  flex: column;
+  justify-content: space-around;
+}
+.tabs{
+  width:250px;
+  display: flex;
+  align-items: center;
+    justify-content: space-between;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.content{
+  height:600px;
+  background-color: #52524f;
+}
